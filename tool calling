@@ -1,0 +1,5 @@
+%pip install openai pydantic quiet
+from openai import OpenAI
+import json
+import requests
+MODEL = "gpt-4.1-mini"
